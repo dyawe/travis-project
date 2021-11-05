@@ -3,8 +3,8 @@ package io.turntabl;
 public class Corporate extends Client {
     private String accountManager;
 
-    public Corporate(String name, String id, ServiceLevel level,String accountManager) {
-        super(name, id, level);
+    public Corporate(String name, ServiceLevel level,String accountManager) {
+        super(name, level);
     }
 
     public String getAccountManager() {
@@ -15,4 +15,6 @@ public class Corporate extends Client {
     public String getContactName() {
         return getAccountManager();
     }
+
+
 }

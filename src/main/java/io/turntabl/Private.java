@@ -2,8 +2,8 @@ package io.turntabl;
 
 public class Private extends Client {
 
-    public Private(String name, String id, ServiceLevel level) {
-        super(name, id, level);
+    public Private(String name,  ServiceLevel level) {
+        super(name, level);
     }
 
     @Override
